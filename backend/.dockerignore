@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+.venv
+__pycache__
+*.py[cod]
+.pytest_cache
+tests
+storage
+uploads
+dist
+build
+*.log
+rag_document_assistant_backend.egg-info

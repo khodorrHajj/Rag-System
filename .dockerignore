@@ -1,0 +1,31 @@
+.git
+.env
+.env.*
+.env.compose
+.env.compose.*
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+storage/
+uploads/
+.DS_Store
+dist/
+build/
+coverage/
+*.log
+frontend/.env.local
+backend/.env
+backend/.pytest_cache
+backend/tests
+frontend/node_modules
+frontend/dist
+*.tsbuildinfo
+
+# Test & diagnostic files
+backend/evals/
+backend/end_to_end_test.py
+backend/diagnose_retrieval.py
+
+# Orphan error output
+nul

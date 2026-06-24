@@ -1,0 +1,41 @@
+.env
+.env.*
+!.env.example
+!.env.compose.example
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+storage/
+uploads/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.python-version
+dist/
+build/
+*.tsbuildinfo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+*.log
+*.pid
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Test & diagnostic files
+backend/tests/
+backend/evals/
+backend/end_to_end_test.py
+backend/diagnose_retrieval.py
+
+# Browser automation / tool artifacts
+.playwright-mcp/
+
+# Orphan error output
+nul
