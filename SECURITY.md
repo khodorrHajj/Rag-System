@@ -51,8 +51,7 @@ Primary threats considered in this repository:
 
 ## File Upload And Parsing Safety
 
-- Supported file types are `.pdf`, `.txt`, and `.docx`.
-- Legacy `.doc` is rejected because it introduces an additional legacy parsing surface.
+
 - Uploaded files are treated as untrusted content at every stage.
 - File extension, type, and size checks are enforced before storage and before parsing.
 - Storage paths are backend-generated, not user-provided.
